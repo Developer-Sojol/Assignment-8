@@ -1,0 +1,146 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/rpVyYGq/kindpng-4945926-1.png",
+        "review": "A classic novel set in the Jazz Age, exploring themes of wealth, society, and the American Dream.",
+        "totalPages": 180,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "American Literature"
+        ],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": "2",
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/vDWHZ2R/kindpng-2592315-1.png",
+        "review": "A profound novel about racial injustice in the Deep South, seen through the eyes of young Scout Finch.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Social Issues"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": "3",
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/CW97R3t/kindpng-5624060-1.png",
+        "review": "A dystopian novel that delves into the dangers of totalitarianism and extreme political ideology.",
+        "totalPages": 328,
+        "rating": 4.6,
+        "category": "Dystopian",
+        "tags": [
+            "Dystopian",
+            "Political"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": "4",
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co/JyVD8qB/kindpng-2193744-1.png",
+        "review": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+        "totalPages": 279,
+        "rating": 4.7,
+        "category": "Romance",
+        "tags": [
+            "Classic",
+            "Romance"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": "5",
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/hcR4pj1/kindpng-4022054-1.png",
+        "review": "A novel about teenage alienation and the struggles of growing up, narrated by the iconic Holden Caulfield.",
+        "totalPages": 214,
+        "rating": 4.2,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Coming of Age"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": "6",
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/hcR4pj1/kindpng-4022054-1.png",
+        "review": "A fantasy novel that takes readers on an adventurous journey with Bilbo Baggins in Middle-earth.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": "7",
+        "bookName": "The Catch-22",
+        "author": "Joseph Heller",
+        "image": "https://i.ibb.co/yBHzrJv/kindpng-1064993.png",
+        "review": "A satirical novel set during World War II, focusing on the absurdities of war and bureaucracy.",
+        "totalPages": 453,
+        "rating": 4.1,
+        "category": "Satire",
+        "tags": [
+            "War",
+            "Satire"
+        ],
+        "publisher": "Simon & Schuster",
+        "yearOfPublishing": 1961
+    },
+    {
+        "bookId": "8",
+        "bookName": "The Road",
+        "author": "Cormac McCarthy",
+        "image": "https://i.ibb.co/4NDwtc9/kindpng-7318921.png",
+        "review": "A post-apocalyptic novel about a father and son's journey through a devastated landscape.",
+        "totalPages": 287,
+        "rating": 4.2,
+        "category": "Post-Apocalyptic",
+        "tags": [
+            "Survival",
+            "Dystopian"
+        ],
+        "publisher": "Alfred A. Knopf",
+        "yearOfPublishing": 2006
+    },
+    {
+        "bookId": "9",
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://i.ibb.co/P5DhX9k/pngwing-1.jpg",
+        "review": "A philosophical book that tells the story of a young shepherd on his journey to realize his personal legend.",
+        "totalPages": 208,
+        "rating": 4.7,
+        "category": "Philosophical",
+        "tags": [
+            "Philosophical",
+            "Adventure"
+        ],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 1988
+    }
+]
