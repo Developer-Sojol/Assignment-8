@@ -15,10 +15,10 @@ const BookDetails = () => {
             </div>
 
             <div className=" space-y-5">
-                <h1 className="text-3xl font-blod">{book.bookName}</h1>
-                <p>By: {book.author}</p>
+                <h1 className="text-4xl font-blod">{book.bookName}</h1>
+                <p className="text-xl">By: {book.author}</p>
                 <hr />
-                <p>{book.category}</p>
+                <p className="text-xl">{book.category}</p>
 
                 <hr />
                 <h2 className="text-2xl"><h5 className="font-bold">Review:</h5> {book.review}</h2>
@@ -30,13 +30,13 @@ const BookDetails = () => {
                 </div>
                 <hr />
                 <div className="flex gap-12 ">
-                    <div>
+                    <div className="space-y-4">
                         <h2>Number of pages: </h2>
                         <h2>Publisher:      </h2>
                         <h2> Year of Publishing:</h2>
                         <h2>Rating:</h2>
                     </div>
-                    <div className="font-bold">
+                    <div className="font-bold  space-y-4">
                         <h5>{book.totalPages}</h5>
                         <h5>{book.publisher}</h5>
                         <h5> {book.yearOfPublishing}</h5>
