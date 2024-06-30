@@ -6,7 +6,7 @@ import { GoPeople } from "react-icons/go";
 const ReadBooks = ({ book }) => {
 
     return (
-        <div className="border border-gray-300 rounded-2xl p-6 flex gap-12 ">
+        <div className="border border-gray-300 rounded-2xl p-6 m-4 md:flex gap-12 ">
             <div className="bg-[#1313130D] p-12 rounded-2xl" >
                 <img src={book.image} alt="" />
             </div>
