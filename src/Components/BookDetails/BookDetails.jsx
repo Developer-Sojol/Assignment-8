@@ -1,4 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { saveAddToReadBook, saveAddToWishListBook } from "../../Utility/localstroage";
 
 
 const BookDetails = () => {
@@ -6,7 +9,15 @@ const BookDetails = () => {
     console.log(books);
     const { id } = useParams();
     const book = books.find(book => book.bookId === id);
-    console.log(book, id);
+
+    const handleAddToRead = () => {
+        saveAddToReadBook(id);
+        toast('Add To Read Sucessfully');
+    }
+    const handleAddToWishList = () => {
+        saveAddToWishListBook(id);
+        toast('Add To WishList SucessFully');
+    }
 
     return (
         <div className="flex gap-32">
@@ -45,8 +56,9 @@ const BookDetails = () => {
                 </div>
 
                 <div className="flex gap-8">
-                    <button className="btn btn-outline">Read</button>
-                    <button className="btn btn-info">WishList</button>
+                    <button onClick={handleAddToRead} className="btn btn-outline">Read</button>
+                    <button onClick={handleAddToWishList} className="btn btn-info">WishList</button>
+                    <ToastContainer />
                 </div>
 
 
