@@ -36,7 +36,7 @@ const BookDetails = () => {
 
                 <div className="flex gap-3 text-[#23BE0A]">
                     <p className="font-bold text-black">Tag</p>
-                    <p className="rounded-full font-bold bg-[#23BE0A0D] px-3">{book.tags[0]}</p>
+                    <p className="rounded-full font-bold bg-[#2b352a0d] px-3">{book.tags[0]}</p>
                     <p className="rounded-full font-bold bg-[#23BE0A0D] px-3">{book.tags[1]}</p>
                 </div>
                 <hr />
