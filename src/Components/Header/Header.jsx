@@ -31,7 +31,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-2xl font-extrabold">Book Vibe</a>
             </div>
             {/* Responsive Nevbar */}
             <div className="navbar-center hidden lg:flex">
